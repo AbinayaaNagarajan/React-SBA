@@ -1,0 +1,16 @@
+I have created a website using React 
+
+I have 3 pages on my site, 
+
+Home, Movies, Favorite Movies. 
+
+In Home page, I have implemented Carousel and used AJAX
+In Movies Page, I have my list of movies with title and add to my favorites button
+In Fav Movies page, When fav movie is added from movies page, it gets added here. Also It shows number of movies to be watched for upcoming week. 
+
+I used UseState, UseEffect and React-router dom to route my routes. 
+For the carousel and axios, I used react-slick and Axios.
+
+I used Json file where my list of movies are coming from this data. 
+
+I have used Movies API which is from 3rd party. 
