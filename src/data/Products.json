@@ -1,0 +1,9 @@
+
+[
+    { "id": 1, "name": "Asterum", "price": 19.99, "imageUrl": "https://image.gmarket.co.kr/service_image/2024/02/06/20240206160827788461_0_0.jpg" },
+    { "id": 2, "name": "Necklace", "price": 16.99, "imageUrl": "https://image.gmarket.co.kr/service_image/2024/02/04/20240204225000952017_0_0.jpg" },
+    { "id": 3, "name": "kids bottom", "price": 15.99, "imageUrl": "https://image.gmarket.co.kr/service_image/2024/02/05/20240205072007903637_0_0.jpg" },
+    { "id": 4, "name": "Black bag", "price": 12.99, "imageUrl": "https://image.gmarket.co.kr/service_image/2024/02/04/20240204235125443533_0_0.jpg" },
+    { "id": 5, "name": "kids shoe", "price": 10.99, "imageUrl": "https://image.gmarket.co.kr/service_image/2024/02/05/20240205122250591613_0_0.jpg" },
+    { "id": 6, "name": "Diffuser", "price": 17.99, "imageUrl": "https://image.gmarket.co.kr/service_image/2024/02/05/20240205072556372569_0_0.jpg" }
+]

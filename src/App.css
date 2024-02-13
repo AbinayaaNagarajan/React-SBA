@@ -1,38 +1,149 @@
-.App {
+/* App.css */
+@import url('slick-carousel/slick/slick.css');
+@import url('slick-carousel/slick/slick-theme.css');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.app {
+  display: flex;
+}
+
+.side-navigation {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-navigation ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-navigation li {
+  margin-bottom: 10px;
+}
+
+.side-navigation a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.side-navigation a:hover {
+  color: #ffd700; /* Change to your desired hover color */
+}
+
+.side-navigation a:active {
+  font-weight: bold;
+  color: #00f; 
+}
+
+.main-layout {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Add any background image or color to the body for the home page */
+/* Example background image: */
+body.home {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Example background color: */
+body.home {
+  background-color: #f0f0f0;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-item {
+  width: calc(33.33% - 20px); /* Adjust the width and margin as needed */
+  margin-bottom: 20px;
+  border:1px solid #000;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+  cursor:pointer;
+}
+.product-description h3{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-description p{
+  width:50%;
+  padding-left:100px;
+  text-align: center;
+
+}
+.product-description .addtocart{
+  width:50%;
+  padding:5px;
+  margin: 10px 10px 0 100px;
+  background-color: #000;
+  color:#fff;
+  
+}
+.product-description .addtocart:hover{
+  background-color: #ffd700;
+  color:#000;
+}
+.carousel-banner {
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.carousel-banner img {
+  width: 100%;
+  height: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.advertisement {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.advertisement img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Add this to your App.css or create a separate CSS file for BannerSlider */
+.banner-slider {
+  width: 100%;
+  max-width: 850px; /* Adjust this value based on your design */
+  margin: 0 auto;
+  cursor:pointer;
+}
+
+.addtocart{
+ cursor:pointer;
+}
+
+.shopping-cart ul{
+ 
+  list-style-type: none;
+}
+.shopping-cart ul li{
+  border:1px solid #000;
+  padding:0 0 0 25px;
+}
+
+.cart-summary{
+  padding: 0 0 0 45px;
 }
