@@ -45,7 +45,7 @@ const App = () => {
 
   useEffect(() => {
     // Make an API request when the component mounts
-    axios.get('http://www.omdbapi.com/?i=tt3896198&apikey=a64671dc')
+    axios.get('https://www.omdbapi.com/?i=tt3896198&apikey=a64671dc')
       .then(response => {
         // Update state with the retrieved movie data
         setMovieData(response.data);
