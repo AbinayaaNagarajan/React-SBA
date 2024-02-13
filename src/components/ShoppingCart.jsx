@@ -8,22 +8,22 @@ const ShoppingCart = ({ cart, removeFromCart }) => {
 
   return (
     <div className="shopping-cart">
-      <h2>Shopping Cart</h2>
+      <h2>Favorite Movies</h2>
       <ul>
         {cart.map(item => (
           <li key={item.id}>
             <img src={item.imageUrl} alt={item.name}  style={{ width: '100px', height: '100px' }} />
             <div>
               <h3>{item.name}</h3>
-              <p>${item.price}</p>
+             {/*<p>${item.price}</p>*/ } 
               <button onClick={() => removeFromCart(item.id)}>Remove</button>
             </div>
           </li>
         ))}
       </ul>
       <div className="cart-summary">
-        <p>Total Items: {cart.length}</p>
-        <p>Total Amount: ${calculateTotal().toFixed(2)}</p>
+        <p>List of Movies to be watched for upcoming week: {cart.length}</p>
+       {/*<p>Total Amount: ${calculateTotal().toFixed(2)}</p>*/ } 
       </div>
     </div>
   );

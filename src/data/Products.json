@@ -1,9 +1,13 @@
 
+
+
+
+
 [
-    { "id": 1, "name": "Asterum", "price": 19.99, "imageUrl": "https://image.gmarket.co.kr/service_image/2024/02/06/20240206160827788461_0_0.jpg" },
-    { "id": 2, "name": "Necklace", "price": 16.99, "imageUrl": "https://image.gmarket.co.kr/service_image/2024/02/04/20240204225000952017_0_0.jpg" },
-    { "id": 3, "name": "kids bottom", "price": 15.99, "imageUrl": "https://image.gmarket.co.kr/service_image/2024/02/05/20240205072007903637_0_0.jpg" },
-    { "id": 4, "name": "Black bag", "price": 12.99, "imageUrl": "https://image.gmarket.co.kr/service_image/2024/02/04/20240204235125443533_0_0.jpg" },
-    { "id": 5, "name": "kids shoe", "price": 10.99, "imageUrl": "https://image.gmarket.co.kr/service_image/2024/02/05/20240205122250591613_0_0.jpg" },
-    { "id": 6, "name": "Diffuser", "price": 17.99, "imageUrl": "https://image.gmarket.co.kr/service_image/2024/02/05/20240205072556372569_0_0.jpg" }
+    { "id": 1, "name": "FARSCAPE","imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FfCJx7cCXKOEkmCVIIyP8qk0Pb7Y.jpg" },
+    { "id": 2, "name": "IMPROV-A-GANZA","imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F4CMQ2PDplUbKhtWZiiFwURYyYFM.jpg" },
+    { "id": 3, "name": "FARSCAPE WARS", "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FtlKtmeLFsM6hH95gv6s18Nf1sK8.jpg" },
+    { "id": 4, "name": "A COOK'S TOUR", "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FcnimBXaFRyDPW5WH6XTUDSaAsAE.jpg" },
+    { "id": 5, "name": "ROBOCOP", "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FlKPeX5a04E1qrzAVeI43ocfinM.jpg" },
+    { "id": 6, "name": "OPERATION REPO", "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FsRPlrapnPICLFPTHuPBSC3DWPCE.jpg"}
 ]

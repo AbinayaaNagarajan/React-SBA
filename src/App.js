@@ -1,6 +1,6 @@
 // App.js
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, NavLink, Routes } from 'react-router-dom';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -22,16 +22,16 @@ const BannerSlider = () => {
     <Slider className="banner-slider" {...settings}>
       {/* Add your banner/slider items here */}
       <div>
-        <img src="https://t3.ftcdn.net/jpg/03/47/39/04/360_F_347390410_yWGfLwNcJXoHcQqFgZ4gzYoIjZB6DR81.jpg" alt="Banner 1" />
+        <img src="https://png.pngtree.com/background/20210709/original/pngtree-movie-film-background-banner-design-picture-image_612258.jpg" alt="Banner 1" />
       </div>
       <div>
-      <img src="https://t3.ftcdn.net/jpg/03/47/39/04/360_F_347390410_yWGfLwNcJXoHcQqFgZ4gzYoIjZB6DR81.jpg" alt="Banner 1" /> 
+      <img src="https://png.pngtree.com/background/20210709/original/pngtree-movie-film-background-banner-design-picture-image_612258.jpg" alt="Banner 1" /> 
       </div>
       <div>
-        <img src="https://t3.ftcdn.net/jpg/03/47/39/04/360_F_347390410_yWGfLwNcJXoHcQqFgZ4gzYoIjZB6DR81.jpg" alt="Banner 1" />
+        <img src="https://png.pngtree.com/background/20210709/original/pngtree-movie-film-background-banner-design-picture-image_612258.jpg" alt="Banner 1" />
       </div>
       <div>
-      <img src="https://t3.ftcdn.net/jpg/03/47/39/04/360_F_347390410_yWGfLwNcJXoHcQqFgZ4gzYoIjZB6DR81.jpg" alt="Banner 1" /> 
+      <img src="https://png.pngtree.com/background/20210709/original/pngtree-movie-film-background-banner-design-picture-image_612258.jpg" alt="Banner 1" /> 
       </div>
       {/* Add more banners as needed */}
     </Slider>
@@ -71,18 +71,18 @@ const App = () => {
       <div className="app">
         <nav className="side-navigation">
           <ul>
-            <li><Link to="/" exact className="nav-link" activeclassName="active">Home</Link></li>
-            <li><Link to="/products" className="nav-link" activeclassName="active">Products</Link></li>
-            <li><Link to="/cart" className="nav-link" activeclassName="active">Shopping Cart</Link></li>
+            <li><NavLink to="/" className="nav-link" >Home</NavLink></li>
+            <li><NavLink to="/Movies" className="nav-link" >Movies</NavLink></li>
+            <li><NavLink to="/Favorites" className="nav-link" >Favorite Movies</NavLink></li>
           </ul>
         </nav>
         <div className="main-layout">
           <Routes>
-            <Route path="/products" element={<ProductList addToCart={addToCart} />} />
-            <Route path="/cart" element={<ShoppingCart cart={cart} removeFromCart={removeFromCart} />} />
+            <Route path="/Movies" element={<ProductList addToCart={addToCart} />} />
+            <Route path="/Favorites" element={<ShoppingCart cart={cart} removeFromCart={removeFromCart} />} />
             <Route path="/" element={
             <>
-              <h2>Welcome to the Shopping Website</h2>
+              <h2>Watch Your Favorite Movies Here</h2>
               <BannerSlider />
               {movieData && (
                   <div>

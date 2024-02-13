@@ -16,8 +16,8 @@ const ProductList = ({ addToCart }) => {
         <img src={product.imageUrl} alt={product.name} />
         <div className="product-description">
           <h3>{product.name}</h3>
-          <p>${product.price}</p>
-          <button className='addtocart' onClick={() => addToCart(product)}>Add to Cart</button>
+      {/*<p>${product.price}</p>*/}   
+          <button className='addtocart' onClick={() => addToCart(product)}>Add To My Favorites</button>
         </div>
       </div>
     ));
@@ -25,7 +25,7 @@ const ProductList = ({ addToCart }) => {
 
   return (
     <div className="product-list">
-      <h2>Products</h2>
+      <h2>Movies</h2>
       <div className="product-container">
         {renderProducts()}
       </div>
