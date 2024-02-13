@@ -2,9 +2,9 @@
 import React from 'react';
 
 const ShoppingCart = ({ cart, removeFromCart }) => {
-  const calculateTotal = () => {
-    return cart.reduce((total, item) => total + item.price, 0);
-  };
+  // const calculateTotal = () => {
+  //   return cart.reduce((total, item) => total + item.price, 0);
+  // };
 
   return (
     <div className="shopping-cart">
